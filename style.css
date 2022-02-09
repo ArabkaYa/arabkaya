@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: darkseagreen;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 150px;
+    padding: 10px 30px;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    top: 0;
+
+    opacity: 08;
+}
+
+#text {
+    width: 100%;
+}
+
+.facts {
+    color: darkred;
+    text-align: center;
+    background-color: darkseagreen;
+    padding: 20px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.facts li {
+    color: #000;
+    text-align: left;
+    list-style-type: none;
+}
+.facts li:nth-child(2n+1){
+    font-weight: bold;
+}
+.image {
+    text-align: center;
+    color: darkred;
+}
+
+.contact a {
+    text-align: left;
+    color: darkred;
+}
+
+.contact label {
+    color: deepskyblue;
+    text-align: left;
+}
+
+.contact {
+    position: absolute;
+    top: 0px;
+    width: 88%;
+    padding: ;
+    margin: ;
+    background-color: forestgreen;
+    text-align: center;
+
+
+}
+
+div #tekst_sverhu_kartinki {
+background-image: url(img/background.jpg);
+
+
+}
+.tekst{
+    padding: 200px 20px;
+}
+.tekst_sverhu_kartinki {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 65px;
+
+    color: #000;
+
+    width: 350px;
+    font-family: italic;
+
+    padding: 10px;
+
+    text-align: left;
+
+
+    font: bold 24px/34px Helvetica, Sans-Serif;
+
+}
+#tekst_sverhu_kartinki img{
+    width: 100%;
+}
+.image img:nth-child(1){
+    border: 4px solid red;
+}
+.image img:nth-child(2){
+    border: 4px solid blue;
+}
+.image img:nth-child(3){
+    border: 4px solid green;
+}
+.image img:nth-child(4){
+    border: 4px solid yellow;
+}
+#contact form{
+    width: 500px;
+    border: 4px solid green;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#contact input{
+    border: 4px solid darkturquoise;
+    padding: 10px 0px;
+    width: 50%;
+border-radius: 10px;
+}
+#contact a{
+    padding: 20px 40px;
+    background-color: darkred;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display:inline-block;
+    
+}
